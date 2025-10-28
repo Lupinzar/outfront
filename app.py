@@ -454,7 +454,6 @@ class App(tk.Tk):
         mb = kb * 1024
         if bytes < mb:
             return f'{bytes / kb:0.2f} Kb'
-        mb = kb * 1024
         return f'{bytes / mb:0.2f} Mb'
     
     '''
